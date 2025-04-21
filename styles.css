@@ -70,7 +70,7 @@ button:hover {
 }
 
 #quiz-title-screen {
-  text-align: center;
+  text-align: left;
   background-color: #e3fbfe; /* Blue */
   padding: 40px;
 }
