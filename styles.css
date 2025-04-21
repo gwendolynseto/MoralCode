@@ -64,7 +64,7 @@ button:hover {
 }
 
 #results-text {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 20px;
 }
 
@@ -76,7 +76,7 @@ button:hover {
 
 #start-quiz-btn {
   background-color: ##79b5bc; /* Dark blue */
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 15px 30px;
 }
 
