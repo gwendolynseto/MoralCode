@@ -1,12 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  padding: 10px;
   background-color: #f0f0f0;
+  box-sizing: border-box;
 }
 
 .screen {
@@ -15,6 +17,9 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  max-width: 600px;
+  margin: 10px auto;
 }
 
 .hidden {
@@ -22,13 +27,16 @@ body {
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 12px 20px;
+  font-size: 1rem;
   cursor: pointer;
   border: none;
   background-color: #007bff;
   color: white;
   border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin: 5px auto;
 }
 
 button:hover {
@@ -37,8 +45,9 @@ button:hover {
 
 .image-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   margin-top: 20px;
 }
 
